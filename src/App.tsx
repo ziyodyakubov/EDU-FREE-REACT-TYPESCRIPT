@@ -1,8 +1,26 @@
+import './index.scss'
+
+import {Header} from "@components";
+import {Intro} from "@sections";
+import Result from './components/sections/result';
+import Render from "./components/sections/Render";
+import Tengtang from "./components/sections/tengtang";
+
+
+
+
+
 const App = () => {
   return (
-    <div>
-      <h1>Hello world!</h1>
-    </div>
+  <>
+    <Header/>
+    <main>
+    <Intro/>
+    <Result/>
+    <Render/>
+    <Tengtang/>
+    </main>
+    </>
   );
 };
 

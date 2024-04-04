@@ -17,7 +17,7 @@ export default defineConfig({
 
       { find: '@components', replacement: '/src/components'},
       { find: '@containers', replacement: '/src/components/containers'},
-      { find: '@ui', replacement: '/src/components/ui'},
+      { find: '@ui', replacement: '/src/components/UI'},
       { find: '@sections', replacement: '/src/components/sections'},
 
       { find: '@images', replacement: '/src/assets/images'},

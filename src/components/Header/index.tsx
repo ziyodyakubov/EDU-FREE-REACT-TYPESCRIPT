@@ -1,6 +1,7 @@
-import logo from "./../../assets/images/main-logo.svg";
-import information from "./../../assets/images/more-info.svg";
+import logo from "./../../assets/main-logo.svg";
+import information from "./../../assets/more-info.svg";
 import "./style.scss";
+import "./../containers/container";
 
 export default function Header(){
     return <header>

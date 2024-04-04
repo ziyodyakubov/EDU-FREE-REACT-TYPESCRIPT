@@ -1,4 +1,4 @@
-import number1 from "./../../../assets/images/number-1.svg";
+import number1 from "./../../../assets/number-1.svg";
 
 
 export default function Card(){

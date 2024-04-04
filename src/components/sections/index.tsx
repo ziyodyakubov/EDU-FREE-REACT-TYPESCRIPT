@@ -1,5 +1,5 @@
 import Contact from "./contact";
-import Intro from "./intro";
+import Intro from "./Intro";
 
 
 export {Contact,Intro}

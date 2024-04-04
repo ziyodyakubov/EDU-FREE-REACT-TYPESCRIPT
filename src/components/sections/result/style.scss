@@ -1,0 +1,51 @@
+.section-2 {
+    padding-top: 80px;
+    padding-bottom: 80px;
+    background-color: #EEF4FA;
+  
+  
+    .section-2_wrapper {
+      display: flex;
+      align-items: flex-end;
+      justify-content: space-between;
+  
+      &-left {
+        display: flex;
+        align-items: center;
+        gap: 40px;
+  
+        .left-card {
+          h2 {
+            color: var(--Dark-blue, #282938);
+            font-size: 32px;
+            font-style: normal;
+            font-weight: 600;
+            line-height: 140%;
+            /* 44.8px */
+            letter-spacing: 0.16px;
+          }
+  
+          p {
+            color: var(--Dark-blue, #282938);
+            font-size: 16px;
+            font-style: normal;
+            font-weight: 400;
+            line-height: 150%;
+            /* 24px */
+          }
+        }
+      }
+  
+      &-right {
+        display: flex;
+        align-items: center;
+        gap: 32px;
+  
+        .right-card {
+          display: flex;
+          align-items: center;
+          gap: 8px;
+        }
+      }
+    }
+  }
